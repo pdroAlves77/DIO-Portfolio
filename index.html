@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pedro Alves</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"  
+     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+     
+    <link rel="stylesheet" href="./assets/CSS/header.css">
+    <link rel="stylesheet" href="assets/CSS/global.css">
+    <link rel="stylesheet" href="/assets/CSS/acordeon.css">
+    <link rel="stylesheet" href="assets/CSS/skills.css">
+    <link rel="stylesheet" href="assets/CSS/languages.css">
+    <link rel="stylesheet" href="assets/CSS/experience.css">
+    <link rel="stylesheet" href="assets/CSS/portfolio.css">
+
+</head>
+<body>
+
+    <body>
+        <main class="main">
+            <header class="header">
+                <img src="assets/img/photo.jpeg" alt="Foto de Perfil" class="photo" id="profile.photo">
+    
+                <h1 class="title">
+                    Olá, <br>eu sou o <span id="profile.name">Pedro Alves</span>
+                </h1>
+    
+                <div class="information">
+                    <p class="job" id="profile.job">Junior Developer</p>
+                    <p class="location" id="profile.location">São Bernardo do Campo - BR</p>
+                    <p class="phone">
+                         <a href="tel:(11) 99223-7753" id="profile.phone">(11) 99223-7753</a>
+                     </p>
+                    <p class="email">
+                        <a href="mailto:phsalves9@gmail.com" id="profile.email">phsalves9@gmail.com</a>
+                     </p>
+                </div>
+
+            </header>
+
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Skills</h2>
+                </button>
+    
+                <div class="content">
+                    <div class="skills">
+                        <section class="tools">
+                            <h3>Ferramentas:</h3>
+                            <ul id="profile.skills.hardSkills">
+                                <li> <img src="assets/img/icons/tools/HTML.png" alt="HTML" title="HTML"></li>
+                                <li> <img src="assets/img/icons/tools/CSS.png" alt="CSS" title="CSS"> </li>
+                                <li> <img src="assets/img/icons/tools/JS.png" alt="JavaScript" title="JavaScript"> </li>
+                                <li> <img src="assets/img/icons/tools/React.png" alt="ReactJS" title="React"> </li>
+                                <li> <img src="assets/img/icons/tools/python.png" alt="Python" title="Python"> </li>
+                                <li> <img src="assets/img/icons/tools/java.png" alt="Java" title="Java"> </li>
+                            </ul>
+                        </section>
+                        </section>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Idiomas</h2>
+                </button>
+    
+                <div class="content">
+                    <ul class="languages" id="profile.languages">
+                        <li>Português BR (Nativo)</li>
+                        <li>Inglês (Intermediário)</li>
+                        <li>Espanhol (Básico)</li>
+                        <li>Libras (Básico)</li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Portfólio</h2>
+                </button>
+    
+                <div class="content">
+                    <ul class="portfolio" id="profile.portfolio">
+                        <li>
+                            <h3 class="github">Criando uma Pokedex com a DIO</h3>
+                            <a href="https://github.com/pdroAlves77/DIO-Pokedex" target="_blank">https://github.com/pdroAlves77/DIO-Pokedex</a>
+                        </li>
+                        <li>
+                            <h3 class="github">Código deste Portfólio</h3>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Experiência Profissional</h2>
+                </button>
+    
+                <div class="content">
+                    <ul class="experience" id="profile.professionalExperience">
+                        <li>
+                            <h3 class="title">Jovem Aprendiz / Fattor RC</h3>
+                            <p class="period">2019 - 2020</p>
+                            <p>Atuava como cobrador de débitos em aberto para o Banco Carrefour.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+        </main>
+        
+        <script src="./assets/JS/acordeon.js"></script>
+        <script src="assets/js/api.js"></script>
+        <script src="assets/js/main.js"></script>
+    
+    </body>
+</html>
