@@ -1,0 +1,64 @@
+{
+    "name": "Pedro Alves",
+    "photo": "https://raw.githubusercontent.com/pdroAlves77/DIO-Portfolio/main/assets/img/photo.jpeg",
+    "job": "Junior Developer",
+    "location": "São Paulo - BR",
+    "phone": "(11) 99223-7753",
+    "email": "phsalves9@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/pdroAlves77/DIO-Portfolio/main/assets/img/icons/tools/HTML.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/pdroAlves77/DIO-Portfolio/main/assets/img/icons/tools/CSS.png"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/pdroAlves77/DIO-Portfolio/main/assets/img/icons/tools/JS.png"
+        },
+        {
+          "name": "ReactJS",
+          "logo": "https://raw.githubusercontent.com/pdroAlves77/DIO-Portfolio/main/assets/img/icons/tools/React.png"
+        },
+        {
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/pdroAlves77/DIO-Portfolio/main/assets/img/icons/tools/java.png"
+        },
+        {
+          "name": "Java",
+          "logo": "https://raw.githubusercontent.com/pdroAlves77/DIO-Portfolio/main/assets/img/icons/tools/python.png"
+        }
+    ]
+
+    },
+    "languages": [
+        "Português BR (Nativo)",
+        "Inglês (Intermediário)",
+        "Espanhol (Básico)",
+        "Libras (Básico)"
+    ],
+    
+    "portfolio": [
+      {
+        "name": "Criando uma Pokedex com a DIO",
+        "url": "https://github.com/pdroAlves77/DIO-Pokedex",
+        "github": true
+      },
+      {
+        "name": "Código deste Portfólio",
+        "url": "https://github.com/pdroAlves77/DIO-Portfolio",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Jovem Aprendiz / Fattor RC",
+        "period": "2019 - 2020",
+        "description": "Atuava como cobrador de débitos em aberto para o Banco Carrefour."
+      }
+    
+    ]
+  }
